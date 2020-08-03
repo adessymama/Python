@@ -1,1 +1,9 @@
 ignorefile.html
+#ignore all the files that end with .html in the src folder#
+src
+src/*
+src/*.html
+#I dont want to ignore index.html.in the src folder#
+!src/index.html
+#to ignore a specific file
+src/index.html
